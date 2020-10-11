@@ -48,6 +48,7 @@ let returnedIndexes = (nums, target) => {
 
 
     return arr;
+
 }
 
 
