@@ -16,12 +16,16 @@ Output: Because nums[0] + nums[1] == 9, we return [0, 1].
 
  */
 
-
 /**
  * @param {number[]} nums
  * @param {number} target
  * @return {number[]}
  */
+
+/*
+Analysis:
+Time: O(n^2) | Space: O(1)
+*/
 var twoSum = function(nums, target) {
     return returnedIndexes(nums, target);
 };
